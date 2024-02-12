@@ -57,7 +57,6 @@ export function runPutMethod(
         case '/api/users/':
         case '/api/users':
           const userIndex = serverdata.findIndex((user) => user.id === id);
-          console.log('userIndex= ', userIndex);
           if (userIndex === -1) {
             response.statusCode = 404;
             response.write(`user is not exist`);
