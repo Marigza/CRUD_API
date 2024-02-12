@@ -58,7 +58,7 @@ export function runDeleteMethod(
           runDefaultBehavior(
             response,
             404,
-            `can not delete ${url} Please check adress`,
+            `can not delete from ${url}. Please check URL`,
           );
       }
     }

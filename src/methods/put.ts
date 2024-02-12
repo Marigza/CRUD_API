@@ -80,7 +80,7 @@ export function runPutMethod(
           runDefaultBehavior(
             response,
             404,
-            `${url} is not exist. Please check adress`,
+            `${url} is not exist. Please check URL`,
           );
       }
     }

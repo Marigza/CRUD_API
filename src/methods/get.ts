@@ -45,6 +45,6 @@ export function runGetMethod(
 
       break;
     default:
-      runDefaultBehavior(response, 404, `can not get ${request.url}`);
+      runDefaultBehavior(response, 404, `can not get ${url}. Please check URL`);
   }
 }

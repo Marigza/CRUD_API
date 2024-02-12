@@ -77,7 +77,7 @@ export function runPostMethod(
           runDefaultBehavior(
             response,
             404,
-            `body does not contain required fields`,
+            `can not post to ${url}. Please check URL`,
           );
       }
     }
