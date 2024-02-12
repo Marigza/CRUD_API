@@ -10,8 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.ts\" --fix",
-    "start": "npx nodemon",
-    "build": "tsc && node dist/server.js"
+    "start:dev": "npx nodemon",
+    "start:prod": "tsc && node dist/server.js"
   },
   "keywords": [],
   "author": "",
