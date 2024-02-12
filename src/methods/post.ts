@@ -66,6 +66,7 @@ export function runPostMethod(
         hobbies: Array.isArray(body.hobbies) ? body.hobbies : [body.hobbies],
       };
       switch (url) {
+        case '/api/users/':
         case '/api/users':
           serverdata.push(user);
           response.statusCode = 201;

@@ -13,6 +13,7 @@ export function runGetMethod(
   const url = request.url?.split('?')[0];
 
   switch (url) {
+    case '/api/users/':
     case '/api/users':
       if (query.searchParams.get('id')) {
         const id = query.searchParams.get('id');
